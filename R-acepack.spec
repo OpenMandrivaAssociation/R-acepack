@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          1.3.3.2
-Release:          1
+Release:          2
 Summary:          ace() and avas() for selecting regression transformations
 Group:            Sciences/Mathematics
 License:          MIT + file LICENSE
