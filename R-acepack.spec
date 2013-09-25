@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          1.3.3.2
-Release:          2
+Version:          1.3.3.3
+Release:          1
 Summary:          ace() and avas() for selecting regression transformations
 Group:            Sciences/Mathematics
 License:          MIT + file LICENSE
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/acepack_1.3-3.2.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/acepack_1.3-3.3.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 %rename R-cran-acepack
 
@@ -40,3 +40,5 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/R
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
+
+
