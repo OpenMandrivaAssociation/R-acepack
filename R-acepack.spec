@@ -7,7 +7,7 @@ Release:          2
 Summary:          ace() and avas() for selecting regression transformations
 Group:            Sciences/Mathematics
 License:          MIT + file LICENSE
-URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
+URL:              https://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/acepack_1.3-3.3.tar.gz
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 %rename R-cran-acepack
